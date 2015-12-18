@@ -13,7 +13,7 @@ Further information about the data collection may be found at http://archive.ics
 &nbsp;&nbsp;&nbsp;&nbsp;One of six activities; allowable values are:  
 &nbsp;&nbsp;&nbsp;&nbsp;WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-The remaining 81 variable are means of the measurements for each feature:
+The remaining 81 variables are means of the measurements for each feature:
 
 tBodyAcc-mean()-X  
 tBodyAcc-mean()-Y  
