@@ -6,10 +6,10 @@ Further information about the data collection may be found at http://archive.ics
 
 ##CODEBOOK
 
-Subject
+**Subject**<br>
 	One of the 30 subjects; values range from 1-30 (integer)
 	
-Activity
+**Activity** <br>
 	One of six activities; allowable values are:
 	WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
