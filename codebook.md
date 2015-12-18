@@ -1,6 +1,6 @@
 ##Data Collection Description
 
-30 volunteers (subjects) performed 6 different activities while wearing Samsung smartphones. Acceleration and angular velocity (features) were measured and recorded. Although the subjects were originally divided into a data training group and a data testing group, the data has been combined for this tidy data set. The original dataset also included 561 features, but this tidy data set contains only mean or standard deviation (std) features. This dataset includes 180 rows, one for each combination of subject and activity. The recorded measurements of each feature have been averaged and this mean is presented for each observation (subject/activity combination).
+30 volunteers (subjects) performed 6 different activities while wearing Samsung smartphones. Acceleration and angular velocity (features) were measured and recorded. Although the subjects were originally divided into a data training group and a data testing group, the data has been combined for this tidy data set. The data was normalized, so measurements fall between -1 and 1. The original dataset also included 561 features, but this tidy data set contains only mean or standard deviation (std) features. This dataset includes 180 rows, one for each combination of subject and activity. The recorded measurements of each feature have been averaged and this mean is presented for each observation (subject/activity combination).
 
 Further information about the data collection may be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
@@ -8,19 +8,14 @@ Further information about the data collection may be found at http://archive.ics
 
 Subject
 	One of the 30 subjects; values range from 1-30 (integer)
-  
+	
 Activity
-	One of six activities. Allowable values are:
-		WALKING
-		WALKING_UPSTAIRS
-		WALKING_DOWNSTAIRS
-		SITTING
-		STANDING
-		LAYING
+	One of six activities; allowable values are:
+	WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-The remaining 81 variable are the means for each feature (numeric)
+The remaining 81 variable are means of the measurements for each feature:
 
-tBodyAcc-mean()-X	
+tBodyAcc-mean()-Xnumeric 
 tBodyAcc-mean()-Y	
 tBodyAcc-mean()-Z	
 tBodyAcc-std()-X	
