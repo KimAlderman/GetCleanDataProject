@@ -7,11 +7,11 @@ Further information about the data collection may be found at http://archive.ics
 ##CODEBOOK
 
 **Subject**  
-	One of the 30 subjects; values range from 1-30 (integer)
+&nbsp;&nbsp;&nbsp;&nbsp;One of the 30 subjects; values range from 1-30 (integer)
 	
 **Activity**  
-	One of six activities; allowable values are:  
-	WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+&nbsp;&nbsp;&nbsp;&nbsp;One of six activities; allowable values are:  
+&nbsp;&nbsp;&nbsp;&nbsp;WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 The remaining 81 variable are means of the measurements for each feature:
 
@@ -88,9 +88,9 @@ fBodyAccMag-meanFreq()
 fBodyBodyAccJerkMag-mean()	
 fBodyBodyAccJerkMag-std()	
 fBodyBodyAccJerkMag-meanFreq()	
-fBodyBodyGyroMag-mean()	
-fBodyBodyGyroMag-std()	
-fBodyBodyGyroMag-meanFreq()	
-fBodyBodyGyroJerkMag-mean()	
-fBodyBodyGyroJerkMag-std()	
-fBodyBodyGyroJerkMag-meanFreq()
+fBodyBodyGyroMag-mean()  
+fBodyBodyGyroMag-std()  
+fBodyBodyGyroMag-meanFreq()  
+fBodyBodyGyroJerkMag-mean()  
+fBodyBodyGyroJerkMag-std()  
+fBodyBodyGyroJerkMag-meanFreq()  
