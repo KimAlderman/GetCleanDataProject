@@ -6,28 +6,28 @@ Further information about the data collection may be found at http://archive.ics
 
 ##CODEBOOK
 
-**Subject**<br>
+**Subject**  
 	One of the 30 subjects; values range from 1-30 (integer)
 	
-**Activity** <br>
-	One of six activities; allowable values are:
+**Activity**  
+	One of six activities; allowable values are:  
 	WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 The remaining 81 variable are means of the measurements for each feature:
 
-tBodyAcc-mean()-Xnumeric
-tBodyAcc-mean()-Y
-tBodyAcc-mean()-Z	
-tBodyAcc-std()-X	
-tBodyAcc-std()-Y	
-tBodyAcc-std()-Z	
+tBodyAcc-mean()-X  
+tBodyAcc-mean()-Y  
+tBodyAcc-mean()-Z  
+tBodyAcc-std()-X  
+tBodyAcc-std()-Y  
+tBodyAcc-std()-Z  
 tGravityAcc-mean()-X	
 tGravityAcc-mean()-Y	
 tGravityAcc-mean()-Z	
-tGravityAcc-std()-X	
-tGravityAcc-std()-Y	
-tGravityAcc-std()-Z	
-tBodyAccJerk-mean()-X	
+tGravityAcc-std()-X  
+tGravityAcc-std()-Y  
+tGravityAcc-std()-Z  
+tBodyAccJerk-mean()-X  
 tBodyAccJerk-mean()-Y	
 tBodyAccJerk-mean()-Z	
 tBodyAccJerk-std()-X	
@@ -46,11 +46,11 @@ tBodyGyroJerk-std()-X
 tBodyGyroJerk-std()-Y	
 tBodyGyroJerk-std()-Z	
 tBodyAccMag-mean()	
-tBodyAccMag-std()
-tGravityAccMag-mean()
-tGravityAccMag-std()
-tBodyAccJerkMag-mean()	
-tBodyAccJerkMag-std()	
+tBodyAccMag-std()  
+tGravityAccMag-mean()  
+tGravityAccMag-std()  
+tBodyAccJerkMag-mean()  
+tBodyAccJerkMag-std()  
 tBodyGyroMag-mean()	
 tBodyGyroMag-std()	
 tBodyGyroJerkMag-mean()	
