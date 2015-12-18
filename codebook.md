@@ -15,8 +15,8 @@ Further information about the data collection may be found at http://archive.ics
 
 The remaining 81 variable are means of the measurements for each feature:
 
-tBodyAcc-mean()-Xnumeric 
-tBodyAcc-mean()-Y	
+tBodyAcc-mean()-Xnumeric
+tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z	
 tBodyAcc-std()-X	
 tBodyAcc-std()-Y	
@@ -46,9 +46,9 @@ tBodyGyroJerk-std()-X
 tBodyGyroJerk-std()-Y	
 tBodyGyroJerk-std()-Z	
 tBodyAccMag-mean()	
-tBodyAccMag-std()	
-tGravityAccMag-mean()	
-tGravityAccMag-std()	
+tBodyAccMag-std()
+tGravityAccMag-mean()
+tGravityAccMag-std()
 tBodyAccJerkMag-mean()	
 tBodyAccJerkMag-std()	
 tBodyGyroMag-mean()	
